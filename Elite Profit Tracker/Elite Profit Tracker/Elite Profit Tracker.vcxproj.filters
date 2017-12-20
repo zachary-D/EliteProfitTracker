@@ -13,5 +13,66 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{768247af-690f-4a18-8933-3421f2075109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\model.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\varConv.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\varTypes.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\windInfo.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\cryptography.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\draw.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\input.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\math.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\zlib\math.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\model.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\varConv.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\varTypes.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\windInfo.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\cryptography.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\draw.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\input.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
