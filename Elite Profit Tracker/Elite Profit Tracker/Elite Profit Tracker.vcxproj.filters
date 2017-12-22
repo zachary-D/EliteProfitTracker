@@ -48,6 +48,9 @@
     <ClCompile Include="..\..\zlib\fileIO.cpp">
       <Filter>zlib</Filter>
     </ClCompile>
+    <ClCompile Include="tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\zlib\math.h">
@@ -79,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="..\..\zlib\fileIO.h">
       <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="tracker.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

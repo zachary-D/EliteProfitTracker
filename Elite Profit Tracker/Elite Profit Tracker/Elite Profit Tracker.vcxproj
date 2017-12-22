@@ -123,6 +123,7 @@
     <ClCompile Include="..\..\zlib\varTypes.cpp" />
     <ClCompile Include="..\..\zlib\windInfo.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="tracker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\zlib\cryptography.h" />
@@ -135,6 +136,7 @@
     <ClInclude Include="..\..\zlib\varTypes.h" />
     <ClInclude Include="..\..\zlib\windInfo.h" />
     <ClInclude Include="..\..\zlib\zlib.h" />
+    <ClInclude Include="tracker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
