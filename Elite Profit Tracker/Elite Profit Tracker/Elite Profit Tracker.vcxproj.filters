@@ -45,6 +45,9 @@
     <ClCompile Include="..\..\zlib\math.cpp">
       <Filter>zlib</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\zlib\fileIO.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\zlib\math.h">
@@ -72,6 +75,9 @@
       <Filter>zlib</Filter>
     </ClInclude>
     <ClInclude Include="..\..\zlib\input.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\fileIO.h">
       <Filter>zlib</Filter>
     </ClInclude>
   </ItemGroup>
